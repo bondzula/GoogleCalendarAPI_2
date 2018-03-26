@@ -17,6 +17,9 @@ Route::get('/', function(){
 Route::get('success', function(){
     return view('success');
 });
+Route::get('fail', function(){
+    return view('fail');
+});
 
 
 Route::resource('calendar', 'FormController');

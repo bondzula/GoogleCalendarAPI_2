@@ -117,13 +117,17 @@ form input[type='submit']:hover {
     margin: 35vh auto 0 auto;
     background-color: #4caf50;
     border-radius: 10px;
-}
-
-.success-wrapper p {
-    text-align: center;
     color: white;
 }
-
+.fail-wrapper {
+    width: 300px;
+    padding: 50px;
+    margin: 35vh auto 0 auto;
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
 /* Error massage style */
 
 .error {

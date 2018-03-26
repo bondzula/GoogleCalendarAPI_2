@@ -56,7 +56,7 @@ class FormController extends Controller
 
         $result = $service->events->insert($calendarId, $event);
         if (!$result) {
-            return response()->json(['status' => 'error', 'message' => 'Something went wrong']);
+            return view('fail');
         }
         return redirect('/success');
     }
