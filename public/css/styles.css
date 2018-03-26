@@ -1,0 +1,132 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global style */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #fff;
+    color: #313031;
+}
+
+/* Header style */
+.header-wrapper {
+    width: 1440px;
+    max-width: 90%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 50px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    font-size: 1.35em;
+    text-decoration: none;
+    color: #313031;
+}
+.logo:hover {
+    color: #c6cfd3;
+}
+
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #313031;
+}
+nav ul li a:hover {
+    color: #c6cfd3;
+}
+
+/* Title style */
+.title {
+    text-align: center;
+    padding: 20px;
+    margin: 50px 0 50px 0;
+    font-weight: 400;
+}
+
+/* Form style */
+
+.body-wrapper {
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 80vh;
+}
+.form-wrap {
+    width: 500px;
+    max-width: 50%;
+    margin: 20px auto 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 40px -4px rgba(99,99,99,0.72);
+    -moz-box-shadow: 2px 2px 40px -4px rgba(99,99,99,0.72);
+    box-shadow: 2px 2px 40px -4px rgba(99,99,99,0.72);
+}
+.form-wrap input {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+form label {
+    display: inline-block;
+    text-align: left;
+    width: 50px;
+}
+form input[type='submit']{
+    width: 200px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+form input[type='submit']:hover {
+    background-color: white; /* Green */
+    border: 1px solid #4caf50;
+    color: #313031;
+}
+
+.form-wrap textarea {
+    padding: 10px;
+    margin: 10px;
+    width: 280px;
+}
+
+
+/* Success massage style */
+
+.success-wrapper {
+    width: 300px;
+    padding: 50px;
+    margin: 35vh auto 0 auto;
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+
+.success-wrapper p {
+    text-align: center;
+    color: white;
+}
+
+/* Error massage style */
+
+.error {
+    color: red;
+    display: block;
+}
